@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+  display: flex;
+  gap: 16px;
 }
 
 .profile-image {
@@ -20,6 +23,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  align-self: center;
 }
 
 .logo {
@@ -35,6 +39,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  align-self: center;
 }
 
 a {
@@ -45,4 +50,13 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  gap: 16px;
 }
+
+/* The solution creates two new classes for left and right items on the header */
+/* Your solution works too but is uglier to look at */
