@@ -45,3 +45,8 @@ img {
   text-align: center;
   max-width: 200px;
 }
+
+/* Your solution has redundancy and basically does not adhere to "clean code" conventions */ 
+/* It also overcomplicates a much simpler task. */
+/* Your solution is however, more responsive to changing webpage width dimensions */
+/* Your solution does not properly align the text in the items */
