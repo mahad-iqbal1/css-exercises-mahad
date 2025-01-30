@@ -68,3 +68,8 @@ ul {
   padding: 0;
   gap: 16px
 }
+
+
+/* I would give full marks for my solution unless the given solution uses an approach that's better for most cases. */
+/* You just used "align-content" whereas the given solution used "flex: 1;" Don't know if one is better than the other */
+/* All I know is that both work */
